@@ -1,0 +1,13 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.digit {
+  font-weight: 600;
+}
+
+.total {
+  font-weight: 700;
+}
