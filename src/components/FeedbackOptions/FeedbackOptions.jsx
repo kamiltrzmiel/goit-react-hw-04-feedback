@@ -1,6 +1,7 @@
+import React from 'react';
 import css from './feedbackOptions.module.css';
 
-export const FeedbackOptions =({ options, onLeaveFeedback }) => {
+const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     return (
         <div className={css.btnSection}>
             {options.map((btnName, index) => (
@@ -9,5 +10,6 @@ export const FeedbackOptions =({ options, onLeaveFeedback }) => {
                 </button>
             ))}
         </div>
-    )
-}
+    );
+};
+export default FeedbackOptions;

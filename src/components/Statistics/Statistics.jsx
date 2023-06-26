@@ -1,6 +1,7 @@
+import React from 'react';
 import css from './statistics.module.css';
 
-export const Statistics = ({
+const Statistics = ({
     good,
     neutral,
     bad,
@@ -24,4 +25,6 @@ export const Statistics = ({
             Positive feedback: <span className={css.digit}> {posPerc}% </span>
         </p>
     </div>
-)
+);
+
+export default Statistics;
